@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Head from "next/head";
 
 const syndicatereports = () => {
   return (
-    <div>
-      syndicatereports
-    </div>
-  )
-}
+    <>
+      <Head>
+        <title>Syndicate Reports</title>
+      </Head>
+      <div>syndicatereports</div>
+    </>
+  );
+};
 
-export default syndicatereports
+export default syndicatereports;

@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Head from "next/head";
 
 const businessconsulting = () => {
   return (
-    <div>
-      Business Consulting
-    </div>
-  )
-}
+    <>
+      <Head>
+        <title>Business Consulting</title>
+      </Head>
+      <div>Business Consulting</div>
+    </>
+  );
+};
 
-export default businessconsulting
+export default businessconsulting;

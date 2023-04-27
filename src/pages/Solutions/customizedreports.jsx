@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Head from "next/head";
 
 const customizedreports = () => {
   return (
-    <div>
-        Customized Reports
-    </div>
-  )
-}
+    <>
+      <Head>
+        <title>Customized Reports</title>
+      </Head>
+      <div>Customized Reports</div>
+    </>
+  );
+};
 
-export default customizedreports
+export default customizedreports;

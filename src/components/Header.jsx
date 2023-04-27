@@ -1,8 +1,10 @@
-import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import {
+  Container,
+  Form,
+  Nav,
+  Navbar,
+  NavDropdown,
+} from "../containers/bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
@@ -21,7 +23,7 @@ const Header = () => {
               <div className="contact-item">
                 <FontAwesomeIcon
                   icon={faMailBulk}
-                  style={{ color: "#c5ccd7"}}
+                  style={{ color: "#c5ccd7" }}
                 />
                 <span> </span>
                 <a
@@ -36,8 +38,9 @@ const Header = () => {
               <div className="contact-item">
                 <FontAwesomeIcon icon={faPhone} style={{ color: "#c5ccd7" }} />
                 <span> </span>
-                <a href="tel:+91-9836913164" 
-                // style={{ color: "#c5ccd7", borderBottom: "1px dashed #504c4c", textDecoration: 'none' }}
+                <a
+                  href="tel:+91-9836913164"
+                  // style={{ color: "#c5ccd7", borderBottom: "1px dashed #504c4c", textDecoration: 'none' }}
                 >
                   +91-9836913164&nbsp;
                 </a>
@@ -48,8 +51,9 @@ const Header = () => {
               <div className="contact-item">
                 <FontAwesomeIcon icon={faPhone} style={{ color: "#c5ccd7" }} />
                 <span> </span>
-                <a href="tel:+1-917-730-4660" 
-                // style={{ color: "#c5ccd7", textDecoration: 'none', borderBottom: "1px dashed #504c4c", }}
+                <a
+                  href="tel:+1-917-730-4660"
+                  // style={{ color: "#c5ccd7", textDecoration: 'none', borderBottom: "1px dashed #504c4c", }}
                 >
                   +1-917-730-4660&nbsp;
                 </a>
@@ -60,7 +64,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <Navbar bg="light" expand="lg">
+      <Navbar id="navbar" bg="light" expand="lg">
         <Container fluid>
           <Navbar.Brand href="/">
             <Image

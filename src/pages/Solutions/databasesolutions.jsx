@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Head from "next/head";
 
 const databasesolutions = () => {
   return (
-    <div>
-      Database Solutions
-    </div>
-  )
-}
+    <>
+      <Head>
+        <title>Database Solutions</title>
+      </Head>
+      <div>Database Solutions</div>
+    </>
+  );
+};
 
-export default databasesolutions
+export default databasesolutions;

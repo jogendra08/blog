@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Head from "next/head";
 
 const itsolutions = () => {
   return (
-    <div>
-      itsolutions
-    </div>
-  )
-}
+    <>
+      <Head>
+        <title>IT Solutions</title>
+      </Head>
+      <div>itsolutions</div>
+    </>
+  );
+};
 
-export default itsolutions
+export default itsolutions;

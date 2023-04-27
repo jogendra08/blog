@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Head from "next/head";
 
 const companyprofiles = () => {
   return (
-    <div>
-      Company Profiles
-    </div>
-  )
-}
+    <>
+      <Head>
+        <title>Company Profiles</title>
+      </Head>
+      <div>Company Profiles</div>
+    </>
+  );
+};
 
-export default companyprofiles
+export default companyprofiles;
