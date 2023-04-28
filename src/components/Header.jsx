@@ -6,7 +6,7 @@ import {
   NavDropdown,
 } from "../containers/bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import img from "../assets/sai_logo.png";
 
@@ -22,7 +22,7 @@ const Header = () => {
             <div className="text-center col-lg-4 col-md-4">
               <div className="contact-item">
                 <FontAwesomeIcon
-                  icon={faMailBulk}
+                  icon={faEnvelope}
                   style={{ color: "#c5ccd7" }}
                 />
                 <span> </span>
