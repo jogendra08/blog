@@ -72,28 +72,28 @@ export default function Home() {
       </div>
       <div className="container text-center my-6">
         <div className="row  justify-content-center">
-          <div className="card col-md-3 mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card col-md-3" style={{ width: "18rem" }}>
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <Button variant="info">Explore More</Button>
             </div>
           </div>
-          <div className="card col-md-3 mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card col-md-3" style={{ width: "18rem" }}>
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <Button variant="info">Explore More</Button>
             </div>
           </div>
-          <div className="card col-md-3 mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card col-md-3" style={{ width: "18rem" }}>
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <Button variant="info">Explore More</Button>
             </div>
           </div>
-          <div className="card col-md-3 mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card col-md-3" style={{ width: "18rem" }}>
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -198,28 +198,28 @@ export default function Home() {
       </div>
       <div className="container text-center my-6">
         <div className="row  justify-content-center">
-          <div className="card col-md-3 mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card col-md-3" style={{ width: "18rem" }}>
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <Button variant="info">Explore More</Button>
             </div>
           </div>
-          <div className="card col-md-3 mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card col-md-3" style={{ width: "18rem" }}>
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <Button variant="info">Explore More</Button>
             </div>
           </div>
-          <div className="card col-md-3 mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card col-md-3" style={{ width: "18rem" }}>
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <Button variant="info">Explore More</Button>
             </div>
           </div>
-          <div className="card col-md-3 mx-2 my-2" style={{ width: "18rem" }}>
+          <div className="card col-md-3" style={{ width: "18rem" }}>
             <div className="card-body">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -317,9 +317,9 @@ export default function Home() {
         </div>
       </section>
       <div>
-        <div className="client-info my-4" style={{ backgroundColor: "#f8f8f8"}}>
+        <div className="client-info text-center my-4" style={{ backgroundColor: "#f8f8f8"}}>
+        <div className="row justify-content-center g-0">
         <div className="text-center text-align-justify col-md-6">
-        <div className="row">
           <div className="mt-4">
             <h3>Clients' Testimonials</h3>
           </div>
@@ -337,7 +337,7 @@ export default function Home() {
           </div>
         </div>
         <div className="col-md-6">
-          <div className="text-center">
+          <div className="text-center mt-4">
             <h3>
             Some Of Our Major Clients
             </h3>
