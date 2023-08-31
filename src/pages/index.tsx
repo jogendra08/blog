@@ -238,15 +238,15 @@ export default function Home() {
         <div className="explore-industry container">
           <div className="row">
             <div className="col-md-4" style={{ borderRadius: "10px" }}>
-              <ul className="justify-content-center" style={{ paddingLeft: "0px", listStyleType: "none" }}>
-                <li className="my-2" ><a href="#">Action</a></li>
-                <li className="my-2" ><a href="#">Action</a></li>
-                <li className="my-2" ><a href="#">Action</a></li>
-                <li className="my-2" ><a href="#">Action</a></li>
-                <li className="my-2" ><a href="#">Action</a></li>
-                <li className="my-2" ><a href="#">Action</a></li>
-                <li className="my-2" ><a href="#">Action</a></li>
-                <li className="my-2" ><a href="#">Action</a></li>
+              <ul className="justify-content-center nav-button" style={{ paddingLeft: "0px", listStyleType: "none" }}>
+                <li className="d-flex align-items-center my-2" ><a href="#">Action</a></li>
+                <li className="d-flex align-items-center my-2" ><a href="#">Action</a></li>
+                <li className="d-flex align-items-center my-2" ><a href="#">Action</a></li>
+                <li className="d-flex align-items-center my-2" ><a href="#">Action</a></li>
+                <li className="d-flex align-items-center my-2" ><a href="#">Action</a></li>
+                <li className="d-flex align-items-center my-2" ><a href="#">Action</a></li>
+                <li className="d-flex align-items-center my-2" ><a href="#">Action</a></li>
+                <li className="d-flex align-items-center my-2" ><a href="#">Action</a></li>
               </ul>
             </div>
             <div className="col-md-7" style={{ backgroundColor: "#f8f8f8", borderRadius: "10px" }}>
@@ -325,7 +325,7 @@ export default function Home() {
           </div>
           <div className="mb-4">
             <p>The report was really helpful and the quality was great. Overall it is nice work to understand the comprehensive outlook of the industry. We will certainly register their services in future and will recommend others as well.</p>
-            <h4>--panasonic</h4>
+            <h4>--Panasonic</h4>
           </div>
           <div className="mb-4">
             <p>It was great working with your team. The report was extremely helpful and gave a deep insight into the market. We definitely got the best value for money in terms of investment. Look forward to hiring your expertise in future as well.</p>

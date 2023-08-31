@@ -27,10 +27,10 @@ const Header = () => {
                 />
                 <span> </span>
                 <a
-                  href="mailto:sales@sheeranalyticsandinsights.com"
+                  href="mailto:sales@smartworldinsights.com"
                   // style={{ color: "#c5ccd7" ,textDecoration: 'none', borderBottom: "1px dashed #504c4c",}}
                 >
-                  sales@sheeranalyticsandinsights.com
+                  sales@smartworldinsights.com
                 </a>
               </div>
             </div>
@@ -39,10 +39,10 @@ const Header = () => {
                 <FontAwesomeIcon icon={faPhone} style={{ color: "#c5ccd7" }} />
                 <span> </span>
                 <a
-                  href="tel:+91-9836913164"
+                  href="tel:+91-8005627811"
                   // style={{ color: "#c5ccd7", borderBottom: "1px dashed #504c4c", textDecoration: 'none' }}
                 >
-                  +91-9836913164&nbsp;
+                  +91-8005627811&nbsp;
                 </a>
                 <span style={{ color: "#c5ccd7" }}>(India)</span>
               </div>
@@ -52,12 +52,12 @@ const Header = () => {
                 <FontAwesomeIcon icon={faPhone} style={{ color: "#c5ccd7" }} />
                 <span> </span>
                 <a
-                  href="tel:+1-917-730-4660"
+                  href="tel:+91-7742680702"
                   // style={{ color: "#c5ccd7", textDecoration: 'none', borderBottom: "1px dashed #504c4c", }}
                 >
-                  +1-917-730-4660&nbsp;
+                  +91-7742680702&nbsp;
                 </a>
-                <span style={{ color: "#c5ccd7" }}>(U.S.)</span>
+                <span style={{ color: "#c5ccd7" }}>(India)</span>
               </div>
             </div>
             {/* <FontAwesomeIcon icon={faArrowAltCircleDown} /> */}
