@@ -7,8 +7,8 @@ import {
 } from "../containers/bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import Image from "next/image";
-import img from "../assets/sai_logo.png";
+// import Image from "next/image";
+// import img from "../assets/sai_logo.png";
 
 const Header = () => {
   return (
@@ -67,12 +67,12 @@ const Header = () => {
       <Navbar id="navbar" bg="light" expand="lg">
         <Container fluid>
           <Navbar.Brand href="/">
-            <Image
+            {/* <Image
               src={img}
               alt="Picture of the author"
               width="50px"
               height="100px"
-            />
+            /> */}
           </Navbar.Brand>
           {/* <Navbar.Brand href="#">Navbar scroll</Navbar.Brand> */}
           <Navbar.Toggle />

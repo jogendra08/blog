@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          SAI
+          SWI
         </title>
       </Head>
       <Carousel>
@@ -115,8 +115,8 @@ export default function Home() {
             image
           </div>
           <div className="research-para col-lg-6 col-md-6 mt-4">
-            <h3>Why Choose S<span style={{ color: "	#A52A2A" }}>A</span>I Research Reports?</h3>
-            <p >SAI Research Reports is a complete marketing solution that arms clients with crucial intelligence and assist in enhancing the decision making. S<span style={{ color: "	#A52A2A" }}>A</span>I Research Reports assists in determining the future growth prospects by estimating the business profitability across the globe. It has proven proficient in delivering premium syndicated and client-centered research report. We aim at combining the meticulous work ethic with premium quality control to guarantee the client satisfaction by providing specific research reports. The customized research report adhere to the specific needs of the client.
+            <h3>Why Choose S<span style={{ color: "	#A52A2A" }}>W</span>I Research Reports?</h3>
+            <p >SWI Research Reports is a complete marketing solution that arms clients with crucial intelligence and assist in enhancing the decision making. S<span style={{ color: "	#A52A2A" }}>W</span>I Research Reports assists in determining the future growth prospects by estimating the business profitability across the globe. It has proven proficient in delivering premium syndicated and client-centered research report. We aim at combining the meticulous work ethic with premium quality control to guarantee the client satisfaction by providing specific research reports. The customized research report adhere to the specific needs of the client.
               <br></br><br></br>
               Our topnotch marketing solutions aims at supporting our clients in rectifying the marketing issues. We as a marketing solution organizations analyzes the upcoming trends of the various industrial verticals. We are dedicated to deliver precise and reliable data owing to an exceptional quality control system.</p>
           </div>
@@ -127,7 +127,7 @@ export default function Home() {
           <h2>
             Some Facts
             <br></br>
-            About S<span style={{ color: "	#A52A2A" }}>A</span>I Research
+            About S<span style={{ color: "	#A52A2A" }}>W</span>I Research
           </h2>
         </div>
         <div className="container  align-items-center justify-content-center mt-4 mb-4 text-center">
